@@ -1,0 +1,17 @@
+<?php
+class Flat
+{
+	private $size;
+
+	public function __construct($size)
+	{
+		$this->size = $size;
+	}
+}
+
+class BlockOfFlats
+{
+	
+}
+
+?>

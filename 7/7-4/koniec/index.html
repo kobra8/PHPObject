@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prototypy</title>
+	<script>
+
+	var user = {};
+	user.email = 'ksawery@strefakursow.pl';
+	user.login = function()
+	{
+		return 'Logowanie';
+	}
+
+	var admin = Object.create(user);
+	admin.email = 'admin@strefakursow.pl';
+
+	console.log(admin.email);
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
