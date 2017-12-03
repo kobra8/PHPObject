@@ -5,7 +5,8 @@ abstract class Shape
 	public abstract function draw();
 }
 
-class Rectangle extends Shape
+// Klasy final nie będzie można rozszerzyć
+final class Rectangle extends Shape
 {
 	public function draw()
 	{
