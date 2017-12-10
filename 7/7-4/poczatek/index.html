@@ -4,7 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Prototypy</title>
 	<script>
+	
+	var user = {};
+	user.email = 'staszek@onet.pl';
+	user.login = function() {
+		return 'Logowanie';
+	}
 
+	var admin = Object.create(user);
+
+
+	console.log(user.email);
+	console.log(user.login());
+	admin.email = 'admin@onet.pl';
+	console.log(admin.email);
 	
 
 	</script>
